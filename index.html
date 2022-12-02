@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Minesweeper</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Minesweeper</h1>
+    <div class="container">
+      <div class="game" onselectstart="return false;">
+        <div class="header">
+          <div class="numbers">
+            <img id="mine1" />
+            <img id="mine2" />
+            <img id="mine3" />
+          </div>
+          <div class="game_button"><button type="button"></button></div>
+          <div class="numbers">
+            <img id="time1" />
+            <img id="time2" />
+            <img id="time3" />
+          </div>
+        </div>
+        <div class="grid"></div>
+        <br />
+        <div class="options">
+          <label for="difficulty">Choose a difficulty:</label>
+          <select id="difficulty" name="difficulty">
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="expert">Expert</option>
+            <option value="custom">Custom</option>
+          </select>
+        </div>
+        <div class="options hide">
+          or if you don't want to conform to any rules, feel free to change the
+          values
+        </div>
+        <div class="options hide">
+          <label>Columns<input type="number" value="9" id="col" /></label>
+          <label>Rows<input type="number" value="9" id="row" /></label>
+          <label>Mines<input type="number" value="10" id="mine" /></label>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+html {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-iems: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  background-color: lightgrey;
+  justify-content: space-between;
+}
+.numbers {
+  flex-direction: column;
+  flex: 0 80px;
+  background-image: url('../assets/nums_background.svg');
+  background-size: 81px 50px;
+  height: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+button{
+  background-image: url('../assets/face_unpressed.svg');
+  background-size: 50px 50px;
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+  border: 0px;
+}
+
+.numbers img{
+  margin-top: 4px;
+  height: 42px;
+}
+
+#time1 {
+  margin-left: 2px;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  cursor: default;
+}
+
+.grid {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid .tile {
+  height: 44px;
+  width: 44px;
+}
+
+.options {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.n0 {
+  color: transparent;
+  background-image: url('../assets/type0.svg');
+  background-size: 44px 44px;
+}
+.n1 {
+  color: transparent;
+  background-image: url('../assets/type1.svg');
+  background-size: 44px 44px;
+}
+
+.n2 {
+  color: transparent;
+  background-image: url('../assets/type2.svg');
+  background-size: 44px 44px;
+}
+
+.n3 {
+  color: transparent;
+  background-image: url('../assets/type3.svg');
+  background-size: 44px 44px;
+}
+
+.n4 {
+  color: transparent;
+  background-image: url('../assets/type4.svg');
+  background-size: 44px 44px;
+}
+
+.n5 {
+  color: transparent;
+  background-image: url('../assets/type5.svg');
+  background-size: 44px 44px;
+}
+
+.n6 {
+  color: transparent;
+  background-image: url('../assets/type6.svg');
+  background-size: 44px 44px;
+}
+
+.n7 {
+  color: transparent;
+  background-image: url('../assets/type7.svg');
+  background-size: 44px 44px;
+}
+
+.n8 {
+  color: transparent;
+  background-image: url('../assets/type8.svg');
+  background-size: 44px 44px;
+}
+
+.nmine {
+  color: transparent;
+  background-image: url('../assets/mine.svg');
+  background-size: 44px 44px;
+}
+
+.covered {
+  background-image: url('../assets/closed.svg');
+  background-size: 44px 44px;
+}
+
+.boom {
+  color: transparent;
+  background-image: url('../assets/mine_red.svg');
+  background-size: 44px 44px;
+}
+
+.flagged {
+  color: transparent;
+  background-image: url('../assets/flag.svg');
+  background-size: 44px 44px;
+}
+
+.wrong {
+  color: transparent;
+  background-image: url('../assets/wrong.png');
+  background-size: 44px 44px;
+}
