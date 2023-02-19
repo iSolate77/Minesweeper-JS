@@ -29,8 +29,8 @@ Now I had to make the game look nice. So, I grabbed the tiles and pictures from 
 Finally, I added some nice features, such as a flag counter and a timer on top of the grid as a header.
 
 ## Unsolved problems
-I would like to add a chording feature - chording happens when you have all flags surrounding a number marked and you click the number which then
-reveals all non-mine tiles around that number.\
+~I would like to add a chording feature - chording happens when you have all flags surrounding a number marked and you click the number which then
+reveals all non-mine tiles around that number.~\
 Also adding a proper boarder would make the game look much better.\
 There are minor bugs that need fixing but nothing major or game breaking.
 
