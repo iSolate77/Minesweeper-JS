@@ -15,7 +15,7 @@ The numbered tiles tell you the number of adjacent mines are there.
 
 ## Wireframes and user story
 
-![Wireframes](assets/wireframe.png)
+![Wireframes](https://git.generalassemb.ly/isolate/Project-01/raw/main/assets/wireframe.png)
 
 As a user, you can start playing, or choose your difficulty level to start uncovering the tiles.
 
