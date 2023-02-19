@@ -42,8 +42,8 @@ underneath it.
 I have to say my favourite function is the flood fill function. In the programming process I was planning on iterating through the tiles to check
 if they had a mine, so that when you uncover a tile with 0 adjacent mines, it should uncover all the surrounding tiles until it reaches
 tiles with mines underneath. \
-It turns out that iterating through the board is inefficient, and could cause problems with bigger boards.\
+It turns out that iterating through the board is inefficient, and could cause problems with bigger boards.
 
-Enter, flood fill algorithm, which is a recursive function that does the job efficiently.
+Enter, flood fill algorithm (implemented using Breadth First Search), which is a recursive function that does the job efficiently.
 
 You can read more about the algorithm on [Wikipedia](https://en.wikipedia.org/wiki/Flood_fill)
